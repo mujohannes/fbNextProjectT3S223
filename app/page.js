@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
+      <button className="btn btn-danger">Test</button>
+      <button className="btn btn-success">Test</button>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
